@@ -24,38 +24,38 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
+    <section className="py-24 bg-zinc-50">
+      <div className="container mx-auto px-8">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl md:text-6xl font-light text-zinc-900 mb-8 tracking-tight">
             Наши услуги
           </h2>
-          <div className="w-20 h-1 bg-amber-500 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <div className="w-32 h-px bg-gradient-to-r from-transparent via-amber-500 to-transparent mx-auto mb-8"></div>
+          <p className="text-xl text-zinc-600 max-w-3xl mx-auto font-light leading-relaxed">
             Полный спектр услуг премиального строительства и дизайна
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-12">
           {services.map((service, index) => (
             <Card
               key={index}
-              className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-0 bg-white"
+              className="group hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 border-0 bg-white/80 backdrop-blur-sm"
             >
-              <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-amber-500/20 transition-colors">
+              <CardHeader className="text-center pb-6 pt-12">
+                <div className="w-20 h-20 bg-gradient-to-br from-amber-500/10 to-yellow-500/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:from-amber-500/20 group-hover:to-yellow-500/20 transition-all duration-300 border border-amber-500/20">
                   <Icon
                     name={service.icon}
-                    size={32}
+                    size={36}
                     className="text-amber-600"
                   />
                 </div>
-                <CardTitle className="text-2xl text-slate-900 group-hover:text-yellow-600 transition-colors">
+                <CardTitle className="text-2xl font-light text-zinc-900 group-hover:text-amber-600 transition-colors tracking-wide">
                   {service.title}
                 </CardTitle>
               </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 leading-relaxed text-center">
+              <CardContent className="pb-12">
+                <p className="text-zinc-600 leading-relaxed text-center font-light">
                   {service.description}
                 </p>
               </CardContent>
