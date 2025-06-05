@@ -17,12 +17,13 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-20 text-center max-w-4xl mx-auto px-6">
-        <div className="mb-6">
-          <h1 className="text-6xl md:text-7xl font-bold mb-4 tracking-tight">
-            <span className="text-white">Luxe</span>
-            <span className="text-yellow-400 ml-2">Space</span>
-          </h1>
-          <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
+        {/* Logo */}
+        <div className="mb-8">
+          <img
+            src="https://cdn.poehali.dev/files/e3b9acff-c083-457c-8587-918045e553ce.jpg"
+            alt="LuxeSpace Logo"
+            className="h-32 md:h-40 mx-auto mb-6 filter brightness-110"
+          />
         </div>
 
         <p className="text-xl md:text-2xl text-gray-200 mb-8 font-light leading-relaxed">
@@ -34,14 +35,14 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button
             size="lg"
-            className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
+            className="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-8 py-4 text-lg transition-all duration-300 hover:scale-105 shadow-lg"
           >
             Наши проекты
           </Button>
           <Button
             variant="outline"
             size="lg"
-            className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black px-8 py-4 text-lg transition-all duration-300"
+            className="border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black px-8 py-4 text-lg transition-all duration-300 shadow-lg"
           >
             Консультация
           </Button>

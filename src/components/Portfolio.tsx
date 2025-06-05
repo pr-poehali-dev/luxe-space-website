@@ -41,7 +41,7 @@ const Portfolio = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Портфолио
           </h2>
-          <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-amber-500 mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Реализованные проекты, которыми мы гордимся
           </p>

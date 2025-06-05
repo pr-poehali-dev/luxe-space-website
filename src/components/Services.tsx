@@ -30,7 +30,7 @@ const Services = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             Наши услуги
           </h2>
-          <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-amber-500 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Полный спектр услуг премиального строительства и дизайна
           </p>
@@ -43,11 +43,11 @@ const Services = () => {
               className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-0 bg-white"
             >
               <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-yellow-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-yellow-500/20 transition-colors">
+                <div className="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-amber-500/20 transition-colors">
                   <Icon
                     name={service.icon}
                     size={32}
-                    className="text-yellow-600"
+                    className="text-amber-600"
                   />
                 </div>
                 <CardTitle className="text-2xl text-slate-900 group-hover:text-yellow-600 transition-colors">

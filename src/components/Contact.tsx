@@ -31,7 +31,7 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
             Контакты
           </h2>
-          <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-amber-500 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Свяжитесь с нами для обсуждения вашего проекта
           </p>
@@ -44,12 +44,8 @@ const Contact = () => {
               className="text-center hover:shadow-lg transition-shadow border-0 bg-white"
             >
               <CardContent className="pt-8 pb-6">
-                <div className="w-16 h-16 bg-yellow-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon
-                    name={info.icon}
-                    size={28}
-                    className="text-yellow-600"
-                  />
+                <div className="w-16 h-16 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name={info.icon} size={28} className="text-amber-600" />
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 mb-2">
                   {info.title}
